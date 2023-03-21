@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Giancarlo Portillo's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+
+<body>
+<div id="loading">
+  <div id="spinner"></div>
+</div>
+<div id="profile">
+  <div id="username"><span style="display:block;">Giancarlo Portillo</span>@geeean</div>
+  <div>
+    <img id="profile_img" src="https://github.com/geeean.png">
+  </div>
+  <div id="userbio" style="display:block;">Aspiring Software Engineer</div>
+  <div id="about">
+    <span style="display:block;"><i class="fas fa-envelope"></i> &nbsp; portillotoran.giancarlo@gmail.com</span>
+    <span style="display:block;"><i class="fab fa-linkedin-in"></i> &nbsp; <a style="color:white;" href="https://www.linkedin.com/in/geean">https://www.linkedin.com/in/geean/</a></span>
+    <span style="display:block;"><i class="fab fa-github"></i> &nbsp; <a style="color:white;" href="https://github.com/Geeean">https://github.com/Geeean</a></span>
+    <span style="display:none;"><i class="fas fa-link"></i> &nbsp; </span>
+    <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Ewa Beach, HI</span>
+    <span style="display:block;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+    <div id="skills">
+      <h4>Skills:</h4>
+      <div class="row">
+        <div class="col">
+          <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React.js</li>
+            <li>Django</li>
+            <li>HTML</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>POSIX C</li>
+            <li>POSIX C++</li>
+            <li>bash</li>
+            <li>MongoDB</li>
+            <li>CSS</li>
+          </ul>
+          </br>
+          </br>
+          </br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="display">
+  <div class="work row">
+    <h1>Professional Experience</h1>
+    <div class="projects">
+      <div class="col">
+        <section>
+            <h3>Operations, Cybersecurity, Techbology, Resilience Intern</h3>
+          <a href="https://www.westyost.com/operational-technology-cybersecurity-and-resilience/" target="_blank">
+          <h4>West Yost</h4>
+          </a>
+          <div class="about_section">
+          <div class="bottom_section">
+            <ul>
+              <li>Visited Wai'ale Iki Booster pump stations 1 - 5 to inspect control systems, wiring, and water pumps to prepare for renovations</li>
+              <li>Implemented an alarm and message program on Programmable Logic Controllers (PLC) using RS Logix to monitor water levels in storage tanks for the Oahu Board of Water Supply</li>
+            </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="work row">
+    <h1>Projects</h1>
+    <div class="projects">
+      <div class="col">
+        <section>
+            <h3>Firmware Team Member</h3>
+          <a href="" target="_blank">
+            <h4>Smart Campus Energy Lab</h4>
+          </a>
+          <div class="about_section">
+            Design and deploy an environmental sensor network across the Mānoa campus to collect meteorological data and assist in photovoltaic power forecasting
+          </div>
+          <div class="bottom_section">
+            <ul>
+              <li>Developed a Linux staging environment in Linux for sensor module testing, creating a safer environment for hardware team members to test changes to software or configurations</li>
+              <li>Set up a test environment similar to production as a pseudo-production server allowing hardware teams to retrieve data from deployed sensors </li>
+              <li>Created a POSTGRESQL database to store environmental sensor data from deployed sensor modules</li>
+              <li>Used Linux command line tools to test sensor module interactions with the lab gateway server</li>
+              <li>Used Git and GitHub for version control and issue tracking</li>
+            </ul>
+            <div class="row">
+              <div class="col-1 code-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="col">
+                <div class="row">
+                  <a href=""> Learn more about SCEL </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="col">
+        <section>
+            <h4>Automated Control Systems Team Member</h4>
+          <a href="" target="_blank">
+            <h4>Microrobotics</h4>
+          </a>
+          <div class="about_section">
+            Analyze embryos from a clinical engineering viewpoint to determine the optimal characteristics for healthy and safe implantations
+          </div>
+          <div class="bottom_section">
+            <ul>
+              <li>Integrated object detection code in Python to aid in the tracking of microscale objects</li>
+              <li>Developed a graphical user interface (GUI) to allow visualization of microrobot movement using Python</li>
+            </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  setTimeout(function(){
+    document.getElementById("loading").classList.add("animated");
+    document.getElementById("loading").classList.add("fadeOut");
+    setTimeout(function(){
+      document.getElementById("loading").classList.remove("animated");
+      document.getElementById("loading").classList.remove("fadeOut");
+      document.getElementById("loading").style.display = "none";
+    },800);
+  },1500);
+  $.getJSON("./blog/blog.json", function(blog){
+    for(var i = 0; i < blog.length; i++){
+      $("#blogs").append(`
+            <a href="/blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `)
+    }
+  });
+</script>
+
+</body></html>

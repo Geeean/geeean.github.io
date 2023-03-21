@@ -461,13 +461,13 @@ h4 {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
   ),
-  url("https://i.pinimg.com/originals/95/9f/b1/959fb1f51bc1026ace27acede55e1bc8.gif");
+  url("https://i.redd.it/0jjoqegut5a91.png");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
   ),
-  url("https://i.pinimg.com/originals/95/9f/b1/959fb1f51bc1026ace27acede55e1bc8.gif") center center fixed;
+  url("https://i.redd.it/0jjoqegut5a91.png") center center fixed;
   --height: 50vh;
 }
 
@@ -479,6 +479,6 @@ h4 {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
     ),
-    url("https://i.pinimg.com/originals/95/9f/b1/959fb1f51bc1026ace27acede55e1bc8.gif") !important;
+    url("https://i.redd.it/0jjoqegut5a91.png") !important;
   }
 }

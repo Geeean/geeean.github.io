@@ -55,7 +55,7 @@ a:hover {
 
 #profile {
   width:30vw;
-  padding-left: 30px;
+  padding: 4vh 3vw;
   display:flex;
   flex-direction:column;
   justify-content:center;
